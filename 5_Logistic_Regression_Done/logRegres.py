@@ -8,7 +8,7 @@ from numpy import *
 # 便利函数: open 读取文件
 def loadDataSet():
     dataMat = []; labelMat = []
-    fr = open("d:/testSet.txt")
+    fr = open("testSet.txt")
     for line in fr.readlines():
         lineArr = line.strip() #去除前后空格
         lineArr = line.strip().split() #系统自带的split函数,切割为列表
